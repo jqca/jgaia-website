@@ -1,0 +1,4 @@
+# Railway deploy trigger
+.local
+.git
+node_modules
