@@ -13,6 +13,5 @@ COPY . .
 RUN pnpm --filter @workspace/jgaia run build
 
 EXPOSE 3000
-ENV PORT=3000
 
-CMD ["serve", "artifacts/jgaia/dist", "-l", "3000"]
+CMD serve artifacts/jgaia/dist -l $PORT
