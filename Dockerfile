@@ -5,7 +5,6 @@ RUN npm install -g pnpm serve
 
 COPY pnpm-workspace.yaml package.json pnpm-lock.yaml ./
 COPY artifacts/jgaia/package.json ./artifacts/jgaia/package.json
-COPY libs/ ./libs/ 2>/dev/null || true
 
 RUN pnpm install --no-frozen-lockfile
 
