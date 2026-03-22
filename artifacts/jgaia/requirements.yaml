@@ -1,0 +1,12 @@
+packages:
+  "framer-motion": "For smooth section reveal animations and page transitions"
+  "react-hook-form": "For managing contact form state"
+  "@hookform/resolvers": "For zod validation integration in contact form"
+  "zod": "For strict schema validation of contact form inputs"
+  "clsx": "Utility for conditionally joining classNames"
+  "tailwind-merge": "Utility for safely merging tailwind classes"
+
+notes:
+  - This is a static clone of the JGAIA site. No backend API calls are implemented.
+  - Image URLs are hotlinked directly from the original site as per instructions.
+  - Wouter is used for routing. Links are implemented without nested <a> tags.
