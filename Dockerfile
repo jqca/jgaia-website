@@ -1,7 +1,7 @@
 FROM node:20-slim
 WORKDIR /app
 
-RUN npm install -g pnpm serve
+RUN npm install -g pnpm@latest serve
 
 COPY pnpm-workspace.yaml package.json pnpm-lock.yaml ./
 COPY artifacts/jgaia/package.json ./artifacts/jgaia/package.json
